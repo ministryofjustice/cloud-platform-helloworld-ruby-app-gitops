@@ -5,9 +5,9 @@ metadata:
 spec:
   tls:
   - hosts:
-    - helloworld-rubyapp.apps.live-1.cloud-platform.service.justice.gov.uk
+    - gitops-helloworld-rubyapp.apps.live-1.cloud-platform.service.justice.gov.uk
   rules:
-  - host: helloworld-rubyapp.apps.live-1.cloud-platform.service.justice.gov.uk
+  - host: gitops-helloworld-rubyapp.apps.live-1.cloud-platform.service.justice.gov.uk
     http:
       paths:
       - path: /
